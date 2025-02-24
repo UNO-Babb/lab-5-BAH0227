@@ -27,7 +27,6 @@ def countLetters(message):
     #Remember that the \n is the symbol for a new line.
 
     output = ""
-    SpacesOfInputs = 27
     for i in range(26):
         print (alpha[i], ":", freq[i])
         line = alpha[i] + "," + str(freq[i]) + "\n"
